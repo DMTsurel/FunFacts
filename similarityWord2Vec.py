@@ -723,8 +723,6 @@ class similarityWord2Vec:
 if __name__ == "__main__":   
 
     sim = similarityWord2Vec()
-    sim.hillaryTest()
-    exit() 
     
     if "-log" in sys.argv:
         logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO, filename="similarity.log")
