@@ -4,7 +4,7 @@ This is the accompanying code to the paper:
 
 David Tsurel, Dan Pelleg, Ido Guy, Dafna Shahaf, "Fun Facts: Automatic Trivia Fact Extraction from Wikipedia", WSDM 2017 (accepted)
 
-Please cite this paper if you use this code.
+Please cite this paper if you use the code.
 
 Execution Instructions:
 
