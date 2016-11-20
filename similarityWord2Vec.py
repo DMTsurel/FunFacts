@@ -49,46 +49,7 @@ class similarityWord2Vec:
 
 
 
-    def buildModel(self):
-        with open(r"C:\Users\David\workspace\Wiki\gitWiki\text8") as f:
-            content = f.read()
-            lines = content.split("\n")
         
-        newLines = []
-        for line in lines:
-            
-            line = line.lower()
-            line = re.sub('[^0-9a-zA-Z]+', ' ', line)
-            lineWords = line.split()
-            
-            p = stemmer.PorterStemmer()
-            lineWords = p.stemWords(lineWords)
-            newLines.append(" ".join(lineWords))
-        parsedContent = "\n".join(newLines)
-            
-        sentences = gensim.models.word2vec.LineSentence(parsedContent)
-        model = gensim.models.Word2Vec(sentences, workers = 5)
-        model.save("text8model2")
-        return model
-        
-    
-    
-    def buildCorpusDictionary(self):
-        corpusDict = {}
-        with open(r"C:\Users\David\workspace\Wiki\gitWiki\text8") as f:
-            content = f.read()
-            content = re.sub('[^0-9a-zA-Z]+', ' ', content)
-            words = content.lower().split()
-    
-            p = stemmer.PorterStemmer()
-            words = p.stemWords(words)
-            for word in words:
-                corpusDict[word] = corpusDict[word]+1 if word in corpusDict else 1
-        with open(r'corpusDict', "w") as f:
-            text = ""
-            for word in corpusDict:
-                text += word + " " + str(corpusDict[word]) + "\n"
-            f.write(text)
     
     
     def loadIndexes(self):
@@ -519,6 +480,7 @@ class similarityWord2Vec:
     #surprisingCatTest()
     
     def hillaryTest(self):
+        self.loadIndexes()
         presidents = ["Barack Obama","George Walker Bush","William Jefferson Clinton","George Herbert Walker Bush","Ronald Wilson Reagan","James Earl Carter, Jr.","Gerald Rudolph Ford, Jr.","Richard Milhous Nixon","Lyndon Baines Johnson","John Fitzgerald Kennedy"]
         other = ["Wolfgang Amadeus Mozart", "Cooperative Dictionary of the Rhinelandic Colloquial Language", "History of the New York Rangers", "Trumpet", "Oscar Hammerstein II", "Monomyth", "Gwonbeop", "Symphony", "Condorcet method", "Climate change"]
         compares = presidents + other
@@ -758,13 +720,12 @@ class similarityWord2Vec:
 
 
 
-def unicodeTest():
-    art = "André Breton"
-    
+if __name__ == "__main__":   
 
-if __name__ == "__main__":    
-    
     sim = similarityWord2Vec()
+    sim.hillaryTest()
+    exit() 
+    
     if "-log" in sys.argv:
         logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO, filename="similarity.log")
     if "-refresh" in sys.argv:
