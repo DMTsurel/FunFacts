@@ -261,15 +261,15 @@ class similarityWord2Vec:
     def createRatioDict(self, cohesAbsList, cohesList, labels):
         #remove threshold?
         #cohesThresh = 0
-        cohesThresh = sorted(cohesAbsList)[len(cohesAbsList)/3]
+        #cohesThresh = sorted(cohesAbsList)[len(cohesAbsList)/3]
         #cohesAbsListFilt = []
         #cohesListFilt = []
         #viewsListFilt = []
         #labelsFilt = []
         ratio = {}
         for i in range(len(cohesAbsList)):
-            if cohesAbsList[i] < cohesThresh:
-                continue
+            #if cohesAbsList[i] < cohesThresh:
+            #    continue
             #cohesListFilt.append(cohesList[i])
             #viewsListFilt.append(viewsList[i])
             #cohesAbsListFilt.append(cohesAbsList[i])
