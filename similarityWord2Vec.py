@@ -58,7 +58,7 @@ class similarityWord2Vec:
             return 
         #global model
         print "loading word2vec model"
-        self.model = gensim.models.Word2Vec.load_word2vec_format("models/GoogleNews-vectors-negative300.bin", binary=True)  # C text format
+        self.model = gensim.models.KeyedVectors.load_word2vec_format("models/GoogleNews-vectors-negative300.bin", binary=True)  # C text format
         print "done"
         #model = gensim.models.Word2Vec.load_word2vec_format("models/glove_model.txt", binary=False)  # C text format
     
