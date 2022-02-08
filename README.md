@@ -1,4 +1,5 @@
-#FunFacts
+
+# FunFacts
 
 This is the accompanying code to the paper: 
 
@@ -27,3 +28,9 @@ https://www.mediawiki.org/wiki/Manual:Pywikibot/user-config.py
     $ python similarityWord2Vec.py -load -0
 
 - Results will appear in the output folder "metricOutput"
+
+## Experiment Results Data
+
+(Added on 08/02/2022)
+
+Uploaded the raw experiment results data, for the experiments described in section 4. They are found under the "experiment_results" folder.
