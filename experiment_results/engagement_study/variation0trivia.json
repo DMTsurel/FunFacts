@@ -1,0 +1,1045 @@
+
+{
+ "kind": "analytics#gaData",
+ "id": "https://www.googleapis.com/analytics/v3/data/ga?ids=ga:126070568&dimensions=ga:eventLabel,+ga:nthMinute,+ga:city&metrics=ga:pageviews,ga:sessions&sort=ga:eventLabel&start-date=2016-08-02&end-date=today",
+ "query": {
+  "start-date": "2016-08-02",
+  "end-date": "today",
+  "ids": "ga:126070568",
+  "dimensions": "ga:eventLabel, ga:nthMinute, ga:city",
+  "metrics": [
+   "ga:pageviews",
+   "ga:sessions"
+  ],
+  "sort": [
+   "ga:eventLabel"
+  ],
+  "start-index": 1,
+  "max-results": 1000
+ },
+ "itemsPerPage": 1000,
+ "totalResults": 140,
+ "selfLink": "https://www.googleapis.com/analytics/v3/data/ga?ids=ga:126070568&dimensions=ga:eventLabel,+ga:nthMinute,+ga:city&metrics=ga:pageviews,ga:sessions&sort=ga:eventLabel&start-date=2016-08-02&end-date=today",
+ "profileInfo": {
+  "profileId": "126070568",
+  "accountId": "80778872",
+  "webPropertyId": "UA-80778872-2",
+  "internalWebPropertyId": "120505159",
+  "profileName": "All Web Site Data",
+  "tableId": "ga:126070568"
+ },
+ "containsSampledData": false,
+ "columnHeaders": [
+  {
+   "name": "ga:eventLabel",
+   "columnType": "DIMENSION",
+   "dataType": "STRING"
+  },
+  {
+   "name": "ga:nthMinute",
+   "columnType": "DIMENSION",
+   "dataType": "STRING"
+  },
+  {
+   "name": "ga:city",
+   "columnType": "DIMENSION",
+   "dataType": "STRING"
+  },
+  {
+   "name": "ga:pageviews",
+   "columnType": "METRIC",
+   "dataType": "INTEGER"
+  },
+  {
+   "name": "ga:sessions",
+   "columnType": "METRIC",
+   "dataType": "INTEGER"
+  }
+ ],
+ "totalsForAllResults": {
+  "ga:pageviews": "169",
+  "ga:sessions": "140"
+ },
+ "rows": [
+  [
+   "11-20 seconds",
+   "000734",
+   "Feasterville-Trevose",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "001265",
+   "Alton",
+   "2",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "001267",
+   "New Orleans",
+   "3",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "001269",
+   "New Orleans",
+   "3",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "001334",
+   "Carrollton",
+   "2",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "001335",
+   "Carrollton",
+   "2",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "001398",
+   "Farmington",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "001460",
+   "Woodstock",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "001513",
+   "Harrogate",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "001561",
+   "Boston",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "001623",
+   "New York",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "001684",
+   "Tucson",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "001868",
+   "Cebu City",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "001885",
+   "(not set)",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002004",
+   "Houston",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002639",
+   "Nairobi",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002684",
+   "Albany",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002712",
+   "White Bear Lake",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002716",
+   "Chicago",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002739",
+   "Fulshear",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002767",
+   "Four Corners",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002807",
+   "Washington",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002826",
+   "Chicago",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002830",
+   "St. Louis",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002884",
+   "Gastonia",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002885",
+   "Idaho Falls",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002885",
+   "Spartanburg",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002889",
+   "Gilroy",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002890",
+   "Brandon",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002915",
+   "Lafayette",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002943",
+   "Le Roy",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002952",
+   "Dallas",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002952",
+   "Los Angeles",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "003001",
+   "Chicago",
+   "2",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "003001",
+   "Miami",
+   "2",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "003007",
+   "Miami",
+   "2",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "003041",
+   "Kansas City",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "003062",
+   "Atlantic City",
+   "2",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "003121",
+   "Minneapolis",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "003245",
+   "New York",
+   "1",
+   "1"
+  ],
+  [
+   "121-180 seconds",
+   "002887",
+   "Spartanburg",
+   "1",
+   "1"
+  ],
+  [
+   "181-300 seconds",
+   "002888",
+   "Spartanburg",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "000734",
+   "Feasterville-Trevose",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "001334",
+   "Carrollton",
+   "2",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "001335",
+   "Carrollton",
+   "2",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "001624",
+   "New York",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "001684",
+   "Tucson",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "002005",
+   "Houston",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "002639",
+   "Nairobi",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "002684",
+   "Albany",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "002712",
+   "White Bear Lake",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "002767",
+   "Four Corners",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "002826",
+   "Chicago",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "002884",
+   "Gastonia",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "002885",
+   "Spartanburg",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "002886",
+   "Idaho Falls",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "002890",
+   "Gilroy",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "002915",
+   "Lafayette",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "002944",
+   "Le Roy",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "002952",
+   "Dallas",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "003041",
+   "Kansas City",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "003121",
+   "Minneapolis",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "003245",
+   "New York",
+   "1",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "000734",
+   "Feasterville-Trevose",
+   "1",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "001334",
+   "Carrollton",
+   "2",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "001335",
+   "Carrollton",
+   "2",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "001684",
+   "Tucson",
+   "1",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "002640",
+   "Nairobi",
+   "1",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "002684",
+   "Albany",
+   "1",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "002886",
+   "Spartanburg",
+   "1",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "002890",
+   "Gilroy",
+   "1",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "002944",
+   "Le Roy",
+   "1",
+   "1"
+  ],
+  [
+   "45-60 seconds",
+   "001335",
+   "Carrollton",
+   "2",
+   "1"
+  ],
+  [
+   "45-60 seconds",
+   "002684",
+   "Albany",
+   "1",
+   "1"
+  ],
+  [
+   "45-60 seconds",
+   "002886",
+   "Spartanburg",
+   "1",
+   "1"
+  ],
+  [
+   "45-60 seconds",
+   "002890",
+   "Gilroy",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "000061",
+   "Festus",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "000733",
+   "Feasterville-Trevose",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001265",
+   "Alton",
+   "2",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001266",
+   "New Orleans",
+   "3",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001267",
+   "New Orleans",
+   "3",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001269",
+   "New Orleans",
+   "3",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001334",
+   "Carrollton",
+   "2",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001398",
+   "Farmington",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001460",
+   "Woodstock",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001513",
+   "Harrogate",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001522",
+   "Dallas",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001561",
+   "Boston",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001623",
+   "New York",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001631",
+   "Hastings",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001684",
+   "Tucson",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001784",
+   "Chattanooga",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001868",
+   "Cebu City",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001885",
+   "(not set)",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001885",
+   "Charlotte",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002004",
+   "Houston",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002269",
+   "Atlanta",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002304",
+   "Kimberton",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002639",
+   "Nairobi",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002683",
+   "Albany",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002712",
+   "White Bear Lake",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002715",
+   "Chicago",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002716",
+   "Chicago",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002724",
+   "Chicago",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002739",
+   "Fulshear",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002767",
+   "Four Corners",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002772",
+   "Memphis",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002776",
+   "Sandwich",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002807",
+   "Washington",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002824",
+   "Fort Kent",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002825",
+   "St. Louis",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002826",
+   "Chicago",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002830",
+   "St. Louis",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002873",
+   "Quezon City",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002881",
+   "Hollywood",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002884",
+   "Gastonia",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002885",
+   "Idaho Falls",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002885",
+   "Spartanburg",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002889",
+   "Gilroy",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002890",
+   "Brandon",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002915",
+   "Lafayette",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002940",
+   "Ennis",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002943",
+   "Le Roy",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002944",
+   "Penndel",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002946",
+   "South Charleston",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002952",
+   "Dallas",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002952",
+   "Los Angeles",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "003001",
+   "Chicago",
+   "2",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "003001",
+   "Miami",
+   "2",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "003007",
+   "Miami",
+   "2",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "003009",
+   "Kenosha",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "003041",
+   "Kansas City",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "003062",
+   "Atlantic City",
+   "2",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "003062",
+   "Fresno",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "003121",
+   "Minneapolis",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "003181",
+   "Rocklin",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "003245",
+   "New York",
+   "1",
+   "1"
+  ],
+  [
+   "61-120 seconds",
+   "001335",
+   "Carrollton",
+   "2",
+   "1"
+  ],
+  [
+   "61-120 seconds",
+   "002640",
+   "Nairobi",
+   "1",
+   "1"
+  ],
+  [
+   "61-120 seconds",
+   "002886",
+   "Spartanburg",
+   "1",
+   "1"
+  ]
+ ]
+}

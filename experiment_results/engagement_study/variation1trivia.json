@@ -1,0 +1,933 @@
+{
+ "kind": "analytics#gaData",
+ "id": "https://www.googleapis.com/analytics/v3/data/ga?ids=ga:126055997&dimensions=ga:eventLabel,+ga:nthMinute,+ga:city&metrics=ga:pageviews,ga:sessions&sort=ga:eventLabel&start-date=2016-08-02&end-date=today",
+ "query": {
+  "start-date": "2016-08-02",
+  "end-date": "today",
+  "ids": "ga:126055997",
+  "dimensions": "ga:eventLabel, ga:nthMinute, ga:city",
+  "metrics": [
+   "ga:pageviews",
+   "ga:sessions"
+  ],
+  "sort": [
+   "ga:eventLabel"
+  ],
+  "start-index": 1,
+  "max-results": 1000
+ },
+ "itemsPerPage": 1000,
+ "totalResults": 124,
+ "selfLink": "https://www.googleapis.com/analytics/v3/data/ga?ids=ga:126055997&dimensions=ga:eventLabel,+ga:nthMinute,+ga:city&metrics=ga:pageviews,ga:sessions&sort=ga:eventLabel&start-date=2016-08-02&end-date=today",
+ "profileInfo": {
+  "profileId": "126055997",
+  "accountId": "80778872",
+  "webPropertyId": "UA-80778872-3",
+  "internalWebPropertyId": "120480085",
+  "profileName": "All Web Site Data",
+  "tableId": "ga:126055997"
+ },
+ "containsSampledData": false,
+ "columnHeaders": [
+  {
+   "name": "ga:eventLabel",
+   "columnType": "DIMENSION",
+   "dataType": "STRING"
+  },
+  {
+   "name": "ga:nthMinute",
+   "columnType": "DIMENSION",
+   "dataType": "STRING"
+  },
+  {
+   "name": "ga:city",
+   "columnType": "DIMENSION",
+   "dataType": "STRING"
+  },
+  {
+   "name": "ga:pageviews",
+   "columnType": "METRIC",
+   "dataType": "INTEGER"
+  },
+  {
+   "name": "ga:sessions",
+   "columnType": "METRIC",
+   "dataType": "INTEGER"
+  }
+ ],
+ "totalsForAllResults": {
+  "ga:pageviews": "129",
+  "ga:sessions": "124"
+ },
+ "rows": [
+  [
+   "11-20 seconds",
+   "001339",
+   "Lakeport",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "001561",
+   "Reston",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "001698",
+   "Saint Marys",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002025",
+   "Atlanta",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002034",
+   "Dallas",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002222",
+   "Lafayette",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002333",
+   "Tucker",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002634",
+   "Memphis",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002647",
+   "Shawnee",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002671",
+   "Saint Simons Island",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002720",
+   "Rome",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002729",
+   "Tamarac",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002763",
+   "Granbury",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002781",
+   "North Brunswick Township",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002785",
+   "O'Fallon",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002828",
+   "Chicago",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002894",
+   "Chicago",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002946",
+   "Pittsburgh",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002967",
+   "Millbrook",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002967",
+   "Suwanee",
+   "2",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "003004",
+   "Providence",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "003036",
+   "Broken Arrow",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "003071",
+   "Melrose Park",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "003133",
+   "Boston",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "003180",
+   "Quezon City",
+   "1",
+   "1"
+  ],
+  [
+   "121-180 seconds",
+   "002027",
+   "Atlanta",
+   "1",
+   "1"
+  ],
+  [
+   "121-180 seconds",
+   "002722",
+   "Rome",
+   "1",
+   "1"
+  ],
+  [
+   "121-180 seconds",
+   "002830",
+   "Chicago",
+   "1",
+   "1"
+  ],
+  [
+   "121-180 seconds",
+   "002969",
+   "Millbrook",
+   "1",
+   "1"
+  ],
+  [
+   "181-300 seconds",
+   "002028",
+   "Atlanta",
+   "1",
+   "1"
+  ],
+  [
+   "181-300 seconds",
+   "002723",
+   "Rome",
+   "1",
+   "1"
+  ],
+  [
+   "181-300 seconds",
+   "002831",
+   "Chicago",
+   "1",
+   "1"
+  ],
+  [
+   "181-300 seconds",
+   "002970",
+   "Millbrook",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "001561",
+   "Reston",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "002025",
+   "Atlanta",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "002034",
+   "Dallas",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "002634",
+   "Memphis",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "002647",
+   "Shawnee",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "002720",
+   "Rome",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "002729",
+   "Tamarac",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "002763",
+   "Granbury",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "002782",
+   "North Brunswick Township",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "002829",
+   "Chicago",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "002967",
+   "Millbrook",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "002967",
+   "Suwanee",
+   "2",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "003004",
+   "Providence",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "003036",
+   "Broken Arrow",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "003071",
+   "Melrose Park",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "003133",
+   "Boston",
+   "1",
+   "1"
+  ],
+  [
+   "301-600 seconds",
+   "002725",
+   "Rome",
+   "1",
+   "1"
+  ],
+  [
+   "301-600 seconds",
+   "002972",
+   "Millbrook",
+   "1",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "002025",
+   "Atlanta",
+   "1",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "002034",
+   "Dallas",
+   "1",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "002648",
+   "Shawnee",
+   "1",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "002720",
+   "Rome",
+   "1",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "002729",
+   "Tamarac",
+   "1",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "002763",
+   "Granbury",
+   "1",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "002782",
+   "North Brunswick Township",
+   "1",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "002829",
+   "Chicago",
+   "1",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "002967",
+   "Millbrook",
+   "1",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "003004",
+   "Providence",
+   "1",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "003036",
+   "Broken Arrow",
+   "1",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "003071",
+   "Melrose Park",
+   "1",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "003133",
+   "Boston",
+   "1",
+   "1"
+  ],
+  [
+   "45-60 seconds",
+   "002025",
+   "Atlanta",
+   "1",
+   "1"
+  ],
+  [
+   "45-60 seconds",
+   "002034",
+   "Dallas",
+   "1",
+   "1"
+  ],
+  [
+   "45-60 seconds",
+   "002648",
+   "Shawnee",
+   "1",
+   "1"
+  ],
+  [
+   "45-60 seconds",
+   "002721",
+   "Rome",
+   "1",
+   "1"
+  ],
+  [
+   "45-60 seconds",
+   "002829",
+   "Chicago",
+   "1",
+   "1"
+  ],
+  [
+   "45-60 seconds",
+   "002968",
+   "Millbrook",
+   "1",
+   "1"
+  ],
+  [
+   "45-60 seconds",
+   "003036",
+   "Broken Arrow",
+   "1",
+   "1"
+  ],
+  [
+   "45-60 seconds",
+   "003071",
+   "Melrose Park",
+   "1",
+   "1"
+  ],
+  [
+   "45-60 seconds",
+   "003133",
+   "Boston",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001267",
+   "High Point",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001285",
+   "Charlotte",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001339",
+   "Lakeport",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001348",
+   "Orange",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001349",
+   "Dallas",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001504",
+   "Indianapolis",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001561",
+   "Reston",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001620",
+   "Springfield",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001621",
+   "Oak Ridge",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001695",
+   "Ellensburg",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001698",
+   "Saint Marys",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002014",
+   "Hanford",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002025",
+   "Atlanta",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002034",
+   "Dallas",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002222",
+   "Lafayette",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002322",
+   "Livermore",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002333",
+   "Tucker",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002634",
+   "Memphis",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002647",
+   "Shawnee",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002670",
+   "Saint Simons Island",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002720",
+   "Rome",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002724",
+   "Elyria",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002726",
+   "Chapel Hill",
+   "2",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002729",
+   "Tamarac",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002763",
+   "Granbury",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002766",
+   "Atlanta",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002781",
+   "North Brunswick Township",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002785",
+   "O'Fallon",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002828",
+   "Chicago",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002835",
+   "Virginia Beach",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002894",
+   "Chicago",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002945",
+   "Virginia Beach",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002946",
+   "Pittsburgh",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002967",
+   "Millbrook",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002967",
+   "Suwanee",
+   "2",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002968",
+   "Suwanee",
+   "2",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "003002",
+   "Greenfield",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "003004",
+   "Providence",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "003036",
+   "Broken Arrow",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "003071",
+   "Melrose Park",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "003133",
+   "Boston",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "003180",
+   "Quezon City",
+   "1",
+   "1"
+  ],
+  [
+   "601-1800 seconds",
+   "002730",
+   "Rome",
+   "1",
+   "1"
+  ],
+  [
+   "601-1800 seconds",
+   "002977",
+   "Millbrook",
+   "1",
+   "1"
+  ],
+  [
+   "61-120 seconds",
+   "002026",
+   "Atlanta",
+   "1",
+   "1"
+  ],
+  [
+   "61-120 seconds",
+   "002035",
+   "Dallas",
+   "1",
+   "1"
+  ],
+  [
+   "61-120 seconds",
+   "002721",
+   "Rome",
+   "1",
+   "1"
+  ],
+  [
+   "61-120 seconds",
+   "002829",
+   "Chicago",
+   "1",
+   "1"
+  ],
+  [
+   "61-120 seconds",
+   "002968",
+   "Millbrook",
+   "1",
+   "1"
+  ],
+  [
+   "61-120 seconds",
+   "003036",
+   "Broken Arrow",
+   "1",
+   "1"
+  ],
+  [
+   "61-120 seconds",
+   "003072",
+   "Melrose Park",
+   "1",
+   "1"
+  ]
+ ]
+}
+

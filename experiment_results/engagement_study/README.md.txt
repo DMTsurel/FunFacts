@@ -1,0 +1,1 @@
+Raw results of the trivia engagement study (described in section 4.2). Exported from Google Analytics.

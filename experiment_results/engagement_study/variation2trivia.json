@@ -1,0 +1,1129 @@
+{
+ "kind": "analytics#gaData",
+ "id": "https://www.googleapis.com/analytics/v3/data/ga?ids=ga:126070679&dimensions=ga:eventLabel,+ga:nthMinute,+ga:city&metrics=ga:pageviews,ga:sessions&sort=ga:eventLabel&start-date=2016-08-02&end-date=today",
+ "query": {
+  "start-date": "2016-08-02",
+  "end-date": "today",
+  "ids": "ga:126070679",
+  "dimensions": "ga:eventLabel, ga:nthMinute, ga:city",
+  "metrics": [
+   "ga:pageviews",
+   "ga:sessions"
+  ],
+  "sort": [
+   "ga:eventLabel"
+  ],
+  "start-index": 1,
+  "max-results": 1000
+ },
+ "itemsPerPage": 1000,
+ "totalResults": 152,
+ "selfLink": "https://www.googleapis.com/analytics/v3/data/ga?ids=ga:126070679&dimensions=ga:eventLabel,+ga:nthMinute,+ga:city&metrics=ga:pageviews,ga:sessions&sort=ga:eventLabel&start-date=2016-08-02&end-date=today",
+ "profileInfo": {
+  "profileId": "126070679",
+  "accountId": "80778872",
+  "webPropertyId": "UA-80778872-4",
+  "internalWebPropertyId": "120494370",
+  "profileName": "All Web Site Data",
+  "tableId": "ga:126070679"
+ },
+ "containsSampledData": false,
+ "columnHeaders": [
+  {
+   "name": "ga:eventLabel",
+   "columnType": "DIMENSION",
+   "dataType": "STRING"
+  },
+  {
+   "name": "ga:nthMinute",
+   "columnType": "DIMENSION",
+   "dataType": "STRING"
+  },
+  {
+   "name": "ga:city",
+   "columnType": "DIMENSION",
+   "dataType": "STRING"
+  },
+  {
+   "name": "ga:pageviews",
+   "columnType": "METRIC",
+   "dataType": "INTEGER"
+  },
+  {
+   "name": "ga:sessions",
+   "columnType": "METRIC",
+   "dataType": "INTEGER"
+  }
+ ],
+ "totalsForAllResults": {
+  "ga:pageviews": "194",
+  "ga:sessions": "152"
+ },
+ "rows": [
+  [
+   "11-20 seconds",
+   "000560",
+   "Peoria",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "000692",
+   "Manila",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "000827",
+   "Greenville",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "000945",
+   "Louisville",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "001137",
+   "Somerset",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "001180",
+   "Manila",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "001331",
+   "Portland",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "001395",
+   "Bristow",
+   "2",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "001396",
+   "Bristow",
+   "2",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "001502",
+   "Spokane",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "001516",
+   "Quitman",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "001692",
+   "Houston",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "001736",
+   "Pittsburg",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002136",
+   "Paramus",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002271",
+   "Tysons",
+   "2",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002336",
+   "Chicago",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002620",
+   "Manchester",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002623",
+   "Des Moines",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002672",
+   "West Goshen",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002718",
+   "Boston",
+   "2",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002774",
+   "Las Vegas",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002836",
+   "(not set)",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002880",
+   "Perryville",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002919",
+   "(not set)",
+   "4",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002947",
+   "Fruit Cove",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002951",
+   "La Crosse",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "002952",
+   "Syracuse",
+   "2",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "003007",
+   "Chicago Heights",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "003010",
+   "Highland",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "003062",
+   "Walnut Creek",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "003069",
+   "Parkersburg",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "003126",
+   "Houston",
+   "3",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "003134",
+   "Moore",
+   "1",
+   "1"
+  ],
+  [
+   "11-20 seconds",
+   "003245",
+   "Dallas",
+   "1",
+   "1"
+  ],
+  [
+   "121-180 seconds",
+   "001181",
+   "Manila",
+   "1",
+   "1"
+  ],
+  [
+   "121-180 seconds",
+   "001504",
+   "Spokane",
+   "1",
+   "1"
+  ],
+  [
+   "121-180 seconds",
+   "002921",
+   "(not set)",
+   "4",
+   "1"
+  ],
+  [
+   "121-180 seconds",
+   "002949",
+   "Fruit Cove",
+   "1",
+   "1"
+  ],
+  [
+   "121-180 seconds",
+   "003012",
+   "Highland",
+   "1",
+   "1"
+  ],
+  [
+   "1801-3600 seconds",
+   "001210",
+   "Manila",
+   "1",
+   "1"
+  ],
+  [
+   "181-300 seconds",
+   "001182",
+   "Manila",
+   "1",
+   "1"
+  ],
+  [
+   "181-300 seconds",
+   "001505",
+   "Spokane",
+   "1",
+   "1"
+  ],
+  [
+   "181-300 seconds",
+   "002950",
+   "Fruit Cove",
+   "1",
+   "1"
+  ],
+  [
+   "181-300 seconds",
+   "003013",
+   "Highland",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "000692",
+   "Manila",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "001180",
+   "Manila",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "001359",
+   "Portland",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "001395",
+   "Bristow",
+   "2",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "001396",
+   "Bristow",
+   "2",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "001502",
+   "Spokane",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "001692",
+   "Houston",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "002136",
+   "Paramus",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "002336",
+   "Chicago",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "002673",
+   "West Goshen",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "002836",
+   "(not set)",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "002880",
+   "Perryville",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "002919",
+   "(not set)",
+   "4",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "002947",
+   "Fruit Cove",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "002951",
+   "La Crosse",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "003010",
+   "Highland",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "003062",
+   "Walnut Creek",
+   "1",
+   "1"
+  ],
+  [
+   "21-30 seconds",
+   "003070",
+   "Parkersburg",
+   "1",
+   "1"
+  ],
+  [
+   "301-600 seconds",
+   "001185",
+   "Manila",
+   "1",
+   "1"
+  ],
+  [
+   "301-600 seconds",
+   "001507",
+   "Spokane",
+   "1",
+   "1"
+  ],
+  [
+   "301-600 seconds",
+   "002952",
+   "Fruit Cove",
+   "1",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "001180",
+   "Manila",
+   "1",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "001395",
+   "Bristow",
+   "2",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "001396",
+   "Bristow",
+   "2",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "001502",
+   "Spokane",
+   "1",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "001692",
+   "Houston",
+   "1",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "002336",
+   "Chicago",
+   "1",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "002673",
+   "West Goshen",
+   "1",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "002881",
+   "Perryville",
+   "1",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "002919",
+   "(not set)",
+   "4",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "002947",
+   "Fruit Cove",
+   "1",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "002951",
+   "La Crosse",
+   "1",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "003010",
+   "Highland",
+   "1",
+   "1"
+  ],
+  [
+   "31-45 seconds",
+   "003063",
+   "Walnut Creek",
+   "1",
+   "1"
+  ],
+  [
+   "45-60 seconds",
+   "001180",
+   "Manila",
+   "1",
+   "1"
+  ],
+  [
+   "45-60 seconds",
+   "001396",
+   "Bristow",
+   "2",
+   "1"
+  ],
+  [
+   "45-60 seconds",
+   "001503",
+   "Spokane",
+   "1",
+   "1"
+  ],
+  [
+   "45-60 seconds",
+   "001693",
+   "Houston",
+   "1",
+   "1"
+  ],
+  [
+   "45-60 seconds",
+   "002673",
+   "West Goshen",
+   "1",
+   "1"
+  ],
+  [
+   "45-60 seconds",
+   "002881",
+   "Perryville",
+   "1",
+   "1"
+  ],
+  [
+   "45-60 seconds",
+   "002919",
+   "(not set)",
+   "4",
+   "1"
+  ],
+  [
+   "45-60 seconds",
+   "002947",
+   "Fruit Cove",
+   "1",
+   "1"
+  ],
+  [
+   "45-60 seconds",
+   "002952",
+   "La Crosse",
+   "1",
+   "1"
+  ],
+  [
+   "45-60 seconds",
+   "003011",
+   "Highland",
+   "1",
+   "1"
+  ],
+  [
+   "45-60 seconds",
+   "003063",
+   "Walnut Creek",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "000560",
+   "Peoria",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "000692",
+   "Manila",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "000827",
+   "Greenville",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "000945",
+   "Louisville",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001137",
+   "Somerset",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001180",
+   "Manila",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001283",
+   "Nashville",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001331",
+   "Portland",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001346",
+   "(not set)",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001395",
+   "Bristow",
+   "2",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001396",
+   "Bristow",
+   "2",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001502",
+   "Spokane",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001516",
+   "Quitman",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001624",
+   "Tupelo",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001692",
+   "Houston",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001697",
+   "Streetsboro",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001736",
+   "Pittsburg",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "001754",
+   "Riverside",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002136",
+   "Paramus",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002271",
+   "Tysons",
+   "2",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002336",
+   "Chicago",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002620",
+   "Manchester",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002623",
+   "Des Moines",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002672",
+   "West Goshen",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002718",
+   "Boston",
+   "2",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002724",
+   "Omaha",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002768",
+   "Chicago",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002774",
+   "Las Vegas",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002804",
+   "Laredo",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002836",
+   "(not set)",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002880",
+   "Perryville",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002919",
+   "(not set)",
+   "4",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002943",
+   "Barnegat Township",
+   "2",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002944",
+   "(not set)",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002945",
+   "Royal Oak",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002947",
+   "Fruit Cove",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002951",
+   "La Crosse",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "002952",
+   "Syracuse",
+   "2",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "003006",
+   "Chicago Heights",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "003010",
+   "Highland",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "003017",
+   "(not set)",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "003061",
+   "Washington",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "003062",
+   "Virginia Beach",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "003062",
+   "Walnut Creek",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "003066",
+   "New York",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "003069",
+   "Parkersburg",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "003126",
+   "Houston",
+   "3",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "003134",
+   "Moore",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "003181",
+   "Oklahoma City",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "003245",
+   "Dallas",
+   "1",
+   "1"
+  ],
+  [
+   "6-10 seconds",
+   "003250",
+   "Shijiazhuang",
+   "1",
+   "1"
+  ],
+  [
+   "601-1800 seconds",
+   "001189",
+   "Manila",
+   "1",
+   "1"
+  ],
+  [
+   "601-1800 seconds",
+   "001513",
+   "Spokane",
+   "1",
+   "1"
+  ],
+  [
+   "601-1800 seconds",
+   "002957",
+   "Fruit Cove",
+   "1",
+   "1"
+  ],
+  [
+   "61-120 seconds",
+   "001180",
+   "Manila",
+   "1",
+   "1"
+  ],
+  [
+   "61-120 seconds",
+   "001397",
+   "Bristow",
+   "2",
+   "1"
+  ],
+  [
+   "61-120 seconds",
+   "001503",
+   "Spokane",
+   "1",
+   "1"
+  ],
+  [
+   "61-120 seconds",
+   "001693",
+   "Houston",
+   "1",
+   "1"
+  ],
+  [
+   "61-120 seconds",
+   "002673",
+   "West Goshen",
+   "1",
+   "1"
+  ],
+  [
+   "61-120 seconds",
+   "002920",
+   "(not set)",
+   "4",
+   "1"
+  ],
+  [
+   "61-120 seconds",
+   "002948",
+   "Fruit Cove",
+   "1",
+   "1"
+  ],
+  [
+   "61-120 seconds",
+   "003011",
+   "Highland",
+   "1",
+   "1"
+  ],
+  [
+   "61-120 seconds",
+   "003063",
+   "Walnut Creek",
+   "1",
+   "1"
+  ]
+ ]
+}
+

@@ -1,0 +1,1 @@
+Raw results of the trivia evaluation study (described in section 4.1). Exported from Amazon Mechanical Turk.
