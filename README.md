@@ -1,11 +1,11 @@
 
 # FunFacts
 
-This is the accompanying code to the paper: 
+This is the accompanying repository for the paper: 
 
-David Tsurel, Dan Pelleg, Ido Guy, Dafna Shahaf, "Fun Facts: Automatic Trivia Fact Extraction from Wikipedia", WSDM 2017 (accepted)
+David Tsurel, Dan Pelleg, Ido Guy, Dafna Shahaf, "[Fun Facts: Automatic Trivia Fact Extraction from Wikipedia](http://www.hyadatalab.com/papers/funfacts-wsdm17.pdf)", WSDM 2017
 
-Please cite this paper if you use the code.
+Please cite this paper if you use the code or results.
 
 Execution Instructions:
 
